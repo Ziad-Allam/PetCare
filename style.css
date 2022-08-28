@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
-    overflow: hidden;
 }
 
 :root {
@@ -474,7 +473,6 @@ form .btn {
 .footer {
     padding: 70px 0;
     background-color: rgb(40, 36, 36);
-/*     background-color: rgb(175, 80, 32); */
     width: 100%;
 }
 
@@ -768,4 +766,9 @@ form .btn {
         padding: 0 15px;
         margin: 30px 30px;
     }
+    
+    .products-box {
+        grid-template-columns: repeat(1, 45rem);
+    }
+
 }
