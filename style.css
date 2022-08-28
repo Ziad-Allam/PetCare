@@ -768,7 +768,7 @@ form .btn {
     }
     
     .products-box {
-        grid-template-columns: repeat(1, 45rem);
+        grid-template-columns: repeat(1, 40rem);
     }
 
 }
